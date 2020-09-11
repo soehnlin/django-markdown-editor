@@ -14,5 +14,6 @@ class PostAdmin(admin.ModelAdmin):
         MartorField: {'widget': AdminMartorWidget},
         models.TextField: {'widget': AdminMartorWidget},
     }
-    
+
+
 admin.site.register(Post, PostAdmin)
